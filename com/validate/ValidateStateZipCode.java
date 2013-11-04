@@ -114,69 +114,54 @@ public class ValidateStateZipCode {
         hmFullState.put("arizona",3);
         hmFullState.put("arkansas",4);
         hmFullState.put("california",5);
-        hmShortState.put("colorado",6);
-        hmShortState.put("connecticut",7);
-        hmShortState.put("delaware",8);
-        hmShortState.put("district of columbia",9);
-        hmShortState.put("florida",10);
-        hmShortState.put("georgia",11);
-        hmShortState.put("hawaii",12);
-        hmShortState.put("idaho",13);
-        hmShortState.put("illinois",14);
-        hmShortState.put("indiana",15);
-        hmShortState.put("iowa",16);
-        hmShortState.put("kansas",17);
-        hmShortState.put("kentucky",18);
-        hmShortState.put("louisiana",19);
-        hmShortState.put("maine",20);
-        hmShortState.put("maryland",21);
-        hmShortState.put("massachusetts",22);
-        hmShortState.put("michigan",23);
-        hmShortState.put("minnesota",24);
-        hmShortState.put("mississippi",25);
-        hmShortState.put("missouri",26);
-        hmShortState.put("montana",27);
-        hmShortState.put("nebraska",28);
-        hmShortState.put("nevada",29);
-        hmShortState.put("new hampshire",30);
-        hmShortState.put("new jersey",31);
-        hmShortState.put("new mexico",32);
+        hmFullState.put("colorado",6);
+        hmFullState.put("connecticut",7);
+        hmFullState.put("delaware",8);
+        hmFullState.put("district of columbia",9);
+        hmFullState.put("florida",10);
+        hmFullState.put("georgia",11);
+        hmFullState.put("hawaii",12);
+        hmFullState.put("idaho",13);
+        hmFullState.put("illinois",14);
+        hmFullState.put("indiana",15);
+        hmFullState.put("iowa",16);
+        hmFullState.put("kansas",17);
+        hmFullState.put("kentucky",18);
+        hmFullState.put("louisiana",19);
+        hmFullState.put("maine",20);
+        hmFullState.put("maryland",21);
+        hmFullState.put("massachusetts",22);
+        hmFullState.put("michigan",23);
+        hmFullState.put("minnesota",24);
+        hmFullState.put("mississippi",25);
+        hmFullState.put("missouri",26);
+        hmFullState.put("montana",27);
+        hmFullState.put("nebraska",28);
+        hmFullState.put("nevada",29);
+        hmFullState.put("new hampshire",30);
+        hmFullState.put("new jersey",31);
+        hmFullState.put("new mexico",32);
 
-        hmShortState.put("new york",33);
-        hmShortState.put("north carolina",34);
-        hmShortState.put("north dakota",35);
-        hmShortState.put("Ohio",36);
-        hmShortState.put("oklahoma",37);
-        hmShortState.put("oregon",38);
-        hmShortState.put("pennsylvania",39);
-        hmShortState.put("rhode island",40);
+        hmFullState.put("new york",33);
+        hmFullState.put("north carolina",34);
+        hmFullState.put("north dakota",35);
+        hmFullState.put("Ohio",36);
+        hmFullState.put("oklahoma",37);
+        hmFullState.put("oregon",38);
+        hmFullState.put("pennsylvania",39);
+        hmFullState.put("rhode island",40);
 
-        hmShortState.put("south carolina",41);
-        hmShortState.put("south dakota",42);
-        hmShortState.put("tennessee",43);
-        hmShortState.put("texas",44);
-        hmShortState.put("utah",45);
-        hmShortState.put("vermont",46);
-        hmShortState.put("virginia",47);
-        hmShortState.put("washington",48);
-        hmShortState.put("west virginia",49);
-        hmShortState.put("wisconsin",50);
-        hmShortState.put("wyoming",51);
-
-        /*
-        South Carolina      SC  290nn-299nn
-South Dakota      SD  570nn-577nn
-Tennessee      TN  370nn-385nn
-Texas      TX  733nn, 750nn-770nn, 772nn-799nn
-Utah      UT  840nn-847nn
-Vermont      VT  050nn-054nn, 056nn-059nn
-Virginia      VA  201nn, 220nn-246nn
-Washington      WA  980nn-986nn, 988nn-994nn
-West Virginia      WV  247nn-268nn
-Wisconsin      WI  530nn-532nn, 534nn-535nn, 537nn-549nn
-Wyoming      WY  820nn-831nn, 834nn
-         */
-
+        hmFullState.put("south carolina",41);
+        hmFullState.put("south dakota",42);
+        hmFullState.put("tennessee",43);
+        hmFullState.put("texas",44);
+        hmFullState.put("utah",45);
+        hmFullState.put("vermont",46);
+        hmFullState.put("virginia",47);
+        hmFullState.put("washington",48);
+        hmFullState.put("west virginia",49);
+        hmFullState.put("wisconsin",50);
+        hmFullState.put("wyoming",51);
     }
 
     private static  void loadShortStateMap()
